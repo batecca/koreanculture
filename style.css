@@ -1,0 +1,1178 @@
+/*  GLOBAL FONT  */
+@font-face {
+  font-family: 'korean_calligraphy';
+  src: url('fonts used/korean_calligraphy/Korean_Calligraphy.ttf') format('truetype');
+}
+
+/* ABOUT PAGE */
+
+.aboutpage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+.aboutpage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 250, 245, 0.75);
+  z-index: -1;
+}
+
+.aboutpage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("images/home bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.aboutpage header {
+  background-color: #c94c4c;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutpage nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.aboutpage nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.aboutpage .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #c94c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+ .hero {
+  position: relative;
+  background: url('images/background.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  text-align: center;
+  color: #fff
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(255, 93, 75, 0.7);
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  width: 100%;
+  background: #f5f8fa;
+  color: #165a92;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-size: 18px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+
+}
+           
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+           
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+           
+.footer-section {
+  min-width: 180px;
+  text-align: left;
+}
+           
+.footer-section h4 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #165a92;
+}
+           
+.footer-section p, .footer-section a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+           
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* CUSTOMSPAGE (Customs.css) */
+
+.customspage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 250, 245, 0.75);
+  z-index: -1;
+}
+
+.customspage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("images/home bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.customspage header {
+  background-color: #c94c4c;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customspage nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.customspage nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.customspage .section {
+  padding: 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.customspage .section h2,
+.customspage .section h3 {
+  text-align: center;
+}
+
+.customspage .section p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+}
+
+/* Hanbok Section */
+.customspage #hanbok-style {
+  background-color: transparent !important;
+  border-bottom: none;
+}
+
+.customspage #hanbok-style h2 {
+  color: #b91c1c;
+  font-size: 1.5rem;
+}
+
+.customspage .hanbok-box-container {
+  border: 2px solid #d8c2b0;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 1.5rem;
+}
+
+.customspage .hanbok-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.customspage .hanbok-item {
+  width: 200px;
+  text-align: center;
+}
+
+.customspage .hanbok-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #d8c2b0;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.customspage .hanbok-item img:hover {
+  transform: scale(1.08);
+}
+
+.customspage .hanbok-item p {
+  margin-top: 0.5rem;
+  color: #b24545;
+  font-size: 1.3rem;
+}
+
+/* Two Column Section */
+.customspage .two-column {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.customspage .column-box {
+  background: #fff;
+  border: 2px solid #d8c2b0;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  width: 45%;
+}
+
+.customspage .column-box h3 {
+  color: #b24545;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Bowing Section */
+.customspage .outside-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #b24545;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.customspage .bowing-box {
+  border: 2px solid #d8c2b0;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.customspage .bowing-box h2 {
+  display: none;
+}
+
+.customspage .bow-row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.customspage .bow-item {
+  text-align: center;
+}
+
+.customspage .bow-img {
+  width: 480px;
+  height: 300px;
+  background: #eee;
+  border: 1px solid #d8c2b0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.customspage .bow-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+.customspage .bow-img img:hover {
+  transform: scale(1.08);
+}
+
+.customspage .bow-img-title {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #777;
+}
+
+.customspage .bow-row-explanation {
+  text-align: center;
+  max-width: 750px;
+  margin: 1rem auto 2.5rem auto;
+  line-height: 1.6;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+/* Ancestral Rites */
+.customspage .rites-box {
+  border: 2px solid #d8c2b0;
+  padding: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.customspage .rites-box h2 {
+  display: none;
+}
+
+.customspage .rites-image {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.customspage .rites-image img {
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid #d8c2b0;
+  transition: transform 0.3s ease;
+}
+
+.customspage .rites-image img:hover {
+  transform: scale(1.08);
+}
+
+/* Fade Animations */
+.customspage .fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.customspage .fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.customspage .fade-in.hide {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+/* Lightbox */
+.customspage .lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.customspage .lightbox img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+.customspage .close-lightbox {
+  position: fixed;
+  top: 40px;
+  right: 50px;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.customspage .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #c94c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.footer {
+  width: 100%;
+  background: #f5f8fa;
+  color: #165a92;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-size: 18px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+
+}
+           
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+           
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+           
+.footer-section {
+  min-width: 180px;
+  text-align: left;
+}
+           
+.footer-section h4 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #165a92;
+}
+           
+.footer-section p, .footer-section a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+           
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/*FESTIVALPAGE*/
+
+.festivalpage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+.festivalpage header {
+  background-color: #c94c4c;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.festivalpage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 250, 245, 0.75);
+  z-index: -1;
+}
+.festivalpage .chuseok-festival-container {
+  border: 2px solid #d8c2b0;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 1.5rem;
+}
+
+.festivalpage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("images/home bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.festivalpage .festival-container {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  color: #333;
+  border: 2px solid #d8c2b0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.festivalpage nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.festivalpage nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.festivalpage .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #c94c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Chuseok Festival */
+.festivalpage #chuseok-festival,
+.festivalpage .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.festivalpage #chuseok-festival h2 {
+  color: #b91c1c;
+  font-size: 1.6rem;
+  margin: 0;
+}
+/* Chuseok festival — boxed section like the Hanbok container */
+.festivalpage #chuseok-festival {
+  background: #fff;
+  border: 2px solid #d8c2b0;
+  border-radius: 12px;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Image grid inside the chuseok container */
+.festivalpage #chuseok-festival .chuseok-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* Each item */
+.festivalpage #chuseok-festival .chuseok-item {
+  width: 260px;
+  text-align: center;
+}
+
+/* Images */
+.festivalpage #chuseok-festival .chuseok-item img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #efe6dd;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Optional caption / note */
+.festivalpage #chuseok-festival .chuseok-note {
+  max-width: 900px;
+  color: #555;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 0.98rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .festivalpage #chuseok-festival {
+    padding: 20px;
+    margin: 20px;
+  }
+  .festivalpage #chuseok-festival .chuseok-item {
+    width: 48%;
+  }
+}
+
+@media (max-width: 520px) {
+  .festivalpage #chuseok-festival .chuseok-item {
+    width: 100%;
+  }
+}
+
+/* Seollal Festival */
+.festivalpage #seollal-festival h2 {
+  color: #b91c1c;
+  font-size: 1.5rem;
+}
+
+/* Seollal festival — boxed section like Chuseok / Hanbok containers */
+.festivalpage #seollal-festival {
+  background: #fff;
+  border: 2px solid #d8c2b0;
+  border-radius: 12px;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Header/title */
+.festivalpage #seollal-festival h2 {
+  color: #b91c1c;
+  font-size: 1.6rem;
+  margin: 0 0 6px 0;
+  text-align: center;
+}
+
+/* Two-column content inside Seollal */
+.festivalpage #seollal-festival .seollal-grid {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Left column (text) */
+.festivalpage #seollal-festival .seollal-left {
+  flex: 1 1 60%;
+  min-width: 260px;
+  text-align: left;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Right column (images / gallery) */
+.festivalpage #seollal-festival .seollal-right {
+  flex: 0 0 320px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.festivalpage #seollal-festival .seollal-right img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #efe6dd;
+}
+
+/* small caption / note */
+.festivalpage #seollal-festival .seollal-note {
+  color: #555;
+  margin-top: 8px;
+  font-size: 0.98rem;
+}
+
+/* Responsive: stack columns on smaller screens */
+@media (max-width: 900px) {
+  .festivalpage #seollal-festival {
+    padding: 22px;
+    margin: 20px;
+  }
+  .festivalpage #seollal-festival .seollal-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .festivalpage #seollal-festival .seollal-left,
+  .festivalpage #seollal-festival .seollal-right {
+    width: 100%;
+    text-align: center;
+  }
+  .festivalpage #seollal-festival .seollal-right img {
+    max-width: 90%;
+  }
+}
+.footer {
+  width: 100%;
+  background: #f5f8fa;
+  color: #165a92;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-size: 18px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+
+}
+           
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+           
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+           
+.footer-section {
+  min-width: 180px;
+  text-align: left;
+}
+           
+.footer-section h4 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #165a92;
+}
+           
+.footer-section p, .footer-section a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+           
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* HOMEPAGE*/
+
+.homepage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 250, 245, 0.75);
+  z-index: -1;
+}
+
+.homepage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("images/home bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.homepage header {
+  background-color: #c94c4c;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.homepage nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.homepage .hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-image: url('images/background home.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.homepage .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #c94c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Slider */
+.homepage .slider {
+  position: relative;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #eee;
+  border-radius: 15px;
+}
+
+.homepage .slide {
+  display: none;
+  height: 200px;
+  font-size: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.homepage .prev,
+.homepage .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.homepage .prev { left: -15px; }
+.homepage .next { right: -15px; }
+
+.homepage .dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.homepage .dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background: #888;
+  cursor: pointer;
+}
+
+.homepage .dot.active {
+  background: black;
+}
+
+/* LANGUAGEPAGE */
+
+.languagepage::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 250, 245, 0.75);
+  z-index: -1;
+}
+
+.languagepage {
+  font-family: 'korean_calligraphy';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("images/home bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.languagepage header {
+  background-color: #c94c4c;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.languagepage .hangul-intro-container {
+  border: 2px solid #d8c2b0;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  margin-top: 1.5rem;
+}
+
+.languagepage nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.languagepage nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.languagepage .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #c94c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Center language page content */
+.languagepage #hangeul-intro,
+.languagepage .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.languagepage #hangeul-intro h2 {
+  color: #b91c1c;
+  font-size: 1.5rem;
+}
+
+/* Intro (Hangeul) container */
+.languagepage #hangeul-intro {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  color: #333;
+}
+
+.languagepage #hangeul-intro .hangeul-box-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.languagepage .hangeul-box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.languagepage .hangeul-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.languagepage .hangeul-item {
+  max-width: 600px;
+}
+
+.languagepage .hangeul-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.languagepage #common-phrases h3 {
+  color: #b91c1c;
+  font-size: 1.5rem;
+}
+
+.languagepage #audio-sample h3 {
+  color: #b91c1c;
+  font-size: 1.5rem;
+}
+
+
+/* Common Phrases container (match Intro to Hangeul style) */
+.languagepage #common-phrases {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  color: #333;
+  border: 2px solid #d8c2b0;
+  box-sizing: border-box;
+}
+
+/* Two-column layout for Common Phrases */
+.languagepage .two-column {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  padding: 0;
+}
+
+.languagepage .two-column > .column-box {
+  box-sizing: border-box;
+}
+
+/* Left column */
+.languagepage .two-column > .column-box:first-child {
+  flex: 1 1 60%;
+}
+
+/* Right column */
+.languagepage .two-column > .column-box:last-child {
+  flex: 0 0 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.languagepage .two-column .column-box img {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.footer {
+  width: 100%;
+  background: #f5f8fa;
+  color: #165a92;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-size: 18px;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+
+}
+           
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+           
+.footer-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+           
+.footer-section {
+  min-width: 180px;
+  text-align: left;
+}
+           
+.footer-section h4 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #165a92;
+}
+           
+.footer-section p, .footer-section a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+           
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 700px) {
+  .languagepage .two-column {
+    flex-direction: column;
+    align-items: center;
+  }
+  .languagepage .two-column > .column-box:last-child {
+    align-items: center;
+    flex: 1 1 auto;
+  }
+  .languagepage .two-column .column-box img {
+    width: 80%;
+    max-width: 360px;
+  }
+}
+
+
